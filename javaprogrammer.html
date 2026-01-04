@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Java Programmer — My blog</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="tech-theme has-fixed-navbar">
+    <header class="page-header">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Java Blog</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="webdeveloper.html">Web Dev</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="webdesigner.html">Design</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Contactus.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container">
+      <div class="card-section">
+        <div class="service-hero">
+          <img
+            src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=900&q=60"
+            alt="Developer coding"
+          />
+          <div class="hero-copy">
+            <h1 class="hero-title">Java Programmer</h1>
+            <p class="lead hero-sub">
+              Practical Java tutorials: clean code, OOP patterns, JVM tuning,
+              and small projects you can run locally.
+            </p>
+          </div>
+        </div>
+
+        <div class="features">
+          <div class="feature-item">
+            <div class="fi-icon">☕</div>
+            <div>
+              <h4>Core Java</h4>
+              <p class="mb-0">
+                Idiomatic Java, collections, and concurrency best practices.
+              </p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="fi-icon">🧰</div>
+            <div>
+              <h4>Spring Ecosystem</h4>
+              <p class="mb-0">
+                Guides for Spring Boot, data access, and microservice patterns.
+              </p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="fi-icon">🧪</div>
+            <div>
+              <h4>Testing</h4>
+              <p class="mb-0">
+                Unit, integration, and contract testing strategies.
+              </p>
+            </div>
+          </div>
+          <div class="feature-item">
+            <div class="fi-icon">⚙️</div>
+            <div>
+              <h4>Performance</h4>
+              <p class="mb-0">JVM tuning, GC strategies, and profiling tips.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery mt-3" aria-label="Java examples gallery">
+          <img
+            src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&w=800&q=60"
+            alt="Code editor"
+          />
+          <img
+            src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800&q=60"
+            alt="Server racks"
+          />
+          <img
+            src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=60"
+            alt="Developer setup"
+          />
+        </div>
+
+        <section class="post-section mt-4">
+          <h2>Getting started with Java</h2>
+          <p>
+            Install the JDK, choose Maven or Gradle, scaffold a small project,
+            and start with clean package structure plus unit tests and a simple
+            CI pipeline.
+          </p>
+        </section>
+
+        <section class="post-section mt-4">
+          <h2>Building a microservice</h2>
+          <figure class="post-figure my-3">
+            <img
+              src="https://images.unsplash.com/photo-1542831371-29b0f74f9713?auto=format&fit=crop&w=1200&q=80"
+              class="img-fluid rounded"
+              alt="Server code"
+            />
+            <figcaption class="text-muted small">
+              Photo:
+              <a href="https://unsplash.com" target="_blank" rel="noopener"
+                >Unsplash</a
+              >
+            </figcaption>
+          </figure>
+          <p>
+            Use Spring Boot to expose REST endpoints, containerize with Docker,
+            and add observability (metrics and logs) for production monitoring.
+          </p>
+        </section>
+
+        <section class="post-section mt-4">
+          <h2>Performance & tuning</h2>
+          <figure class="post-figure my-3">
+            <img
+              src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80"
+              class="img-fluid rounded"
+              alt="Server racks"
+            />
+            <figcaption class="text-muted small">
+              Photo:
+              <a href="https://unsplash.com" target="_blank" rel="noopener"
+                >Unsplash</a
+              >
+            </figcaption>
+          </figure>
+          <p>
+            Profile with VisualVM or async-profiler, tune GC for your workload,
+            and set resource limits in containers to avoid noisy neighbors.
+          </p>
+        </section>
+
+        <div class="service-cta">
+          <a class="btn btn-primary" href="Contactus.html">Request Java Help</a>
+          <a class="btn btn-outline-light ms-2" href="webdeveloper.html"
+            >See Web Dev</a
+          >
+        </div>
+
+        <p class="mt-4 mb-0">
+          Want deeper guides? Follow the blog for weekly posts and check the
+          GitHub repo linked in the footer for sample projects.
+        </p>
+      </div>
+    </main>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
